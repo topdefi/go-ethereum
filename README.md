@@ -1,23 +1,60 @@
-## Go Ethereum
+## Go Magacoin
 
-Official Golang execution layer implementation of the Ethereum protocol.
+Official Golang execution layer implementation of the Magacoin protocol.
 
-[![API Reference](
-https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/ethereum/go-ethereum?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ethereum/go-ethereum)](https://goreportcard.com/report/github.com/ethereum/go-ethereum)
-[![Travis](https://travis-ci.com/ethereum/go-ethereum.svg?branch=master)](https://travis-ci.com/ethereum/go-ethereum)
-[![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
+**Chain Specs**
+* Native Token Name - Magacoin
+* Symbol - MAGA
+* Max Supply - 100 Million
+* Blocktime - ~12 seconds
+* Consensus - Ethash PoW
+* P2P Port - 30303
+* JSON-RPC Port - 8545 
+* ChainID Mainnet - 1776
+* ChainID Testnet - 1777
 
-Automated builds are available for stable releases and the unstable master branch. Binary
-archives are published at https://geth.ethereum.org/downloads/.
+**Official Links**
+* Website - https://gomagacoin.com
+* Main Explorer - https://magascan.com
+* Test Explorer - https://testnet.magascan.com
+* Twitter - https://twitter.com/gomagacoin
+* Telegram - https://t.me/gomagacoin
 
-## Building the source
 
-For prerequisites and detailed build instructions please read the [Installation Instructions](https://geth.ethereum.org/docs/getting-started/installing-geth).
+## Building from source Ubuntu 20.04
 
 Building `geth` requires both a Go (version 1.18 or later) and a C compiler. You can install
-them using your favourite package manager. Once the dependencies are installed, run
+them using your favourite package manager. 
+
+### Setup Go Path
+```shell
+sudo nano ~/.profile
+```
+Paste this into the bottom of the file
+```shell
+export GOPATH=$HOME/work
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+```
+```shell
+source ~/.profile
+```
+
+### Install Go
+```shell
+wget https://go.dev/dl/go1.18.7.linux-amd64.tar.gz
+sudo tar -xvf go1.18.7.linux-amd64.tar.gz
+sudo mv go /usr/local && rm go1.18.7.linux-amd64.tar.gz
+```
+Check that it's installed
+```shell
+go version
+```
+You should see something like this:
+```shell
+go version go1.18.7 linux/amd64
+```
+
+Once the dependencies are installed, run
 
 ```shell
 make geth
