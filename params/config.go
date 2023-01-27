@@ -27,7 +27,7 @@ import (
 
 // Genesis hashes to enforce below configs on.
 var (
-	MainnetGenesisHash = common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3")
+	MainnetGenesisHash = common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7")
 	RopstenGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
 	SepoliaGenesisHash = common.HexToHash("0x25a5cc106eea7138acab33231d7160d69cb777ee0c2c553fcddf5138993e6dd9")
 	RinkebyGenesisHash = common.HexToHash("0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177")
@@ -62,7 +62,7 @@ var (
 		DAOForkBlock:                  big.NewInt(0),
 		DAOForkSupport:                true,
 		EIP150Block:                   big.NewInt(0),
-		EIP150Hash:                    common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3"),
+		EIP150Hash:                    common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7"),
 		EIP155Block:                   big.NewInt(0),
 		EIP158Block:                   big.NewInt(0),
 		ByzantiumBlock:                big.NewInt(0),
@@ -79,9 +79,9 @@ var (
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 1,
-		SectionHead:  common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3"),
-		CHTRoot:      common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3"),
-		BloomRoot:    common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3"),
+		SectionHead:  common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7"),
+		CHTRoot:      common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7"),
+		BloomRoot:    common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7"),
 	}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
