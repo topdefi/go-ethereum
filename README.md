@@ -6,6 +6,7 @@ Official Golang execution layer implementation of the Magacoin protocol.
 * Native Token Name - Magacoin
 * Symbol - MAGA
 * Max Supply - 100 Million
+* Block Reward - 2 MAGA
 * Blocktime - ~12 seconds
 * Consensus - Ethash PoW
 * P2P Port - 30303
