@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/eth/protocols/eth"
+	"github.com/topdefi/go-ethereum/event"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/p2p/msgrate"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/core/rawdb"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/log"
 )
 
 // beaconBackfiller is the chain and state backfilling that can be commenced once

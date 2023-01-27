@@ -19,17 +19,17 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/consensus"
+	"github.com/topdefi/go-ethereum/core/rawdb"
+	"github.com/topdefi/go-ethereum/core/state"
+	"github.com/topdefi/go-ethereum/core/state/snapshot"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/core/vm"
+	"github.com/topdefi/go-ethereum/event"
+	"github.com/topdefi/go-ethereum/params"
+	"github.com/topdefi/go-ethereum/rlp"
+	"github.com/topdefi/go-ethereum/trie"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

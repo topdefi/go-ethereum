@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/topdefi/go-ethereum/core"
+	"github.com/topdefi/go-ethereum/core/state"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/core/vm"
+	"github.com/topdefi/go-ethereum/eth/tracers"
+	"github.com/topdefi/go-ethereum/light"
 )
 
 // noopReleaser is returned in case there is no operation expected

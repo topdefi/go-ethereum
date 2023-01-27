@@ -19,10 +19,10 @@ package rawdb
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/ethdb"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/rlp"
 )
 
 // ReadSkeletonSyncStatus retrieves the serialized sync status saved at shutdown.

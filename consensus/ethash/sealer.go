@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/common/hexutil"
+	"github.com/topdefi/go-ethereum/consensus"
+	"github.com/topdefi/go-ethereum/core/types"
 )
 
 const (

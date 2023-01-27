@@ -24,12 +24,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/topdefi/go-ethereum"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/common/hexutil"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/p2p"
+	"github.com/topdefi/go-ethereum/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

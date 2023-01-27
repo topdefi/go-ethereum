@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/crypto"
+	"github.com/topdefi/go-ethereum/eth/protocols/eth"
+	"github.com/topdefi/go-ethereum/internal/utesting"
+	"github.com/topdefi/go-ethereum/p2p"
+	"github.com/topdefi/go-ethereum/p2p/rlpx"
 )
 
 var (

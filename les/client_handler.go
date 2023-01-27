@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/les/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/common/mclock"
+	"github.com/topdefi/go-ethereum/core/forkid"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/eth/protocols/eth"
+	"github.com/topdefi/go-ethereum/les/downloader"
+	"github.com/topdefi/go-ethereum/light"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/p2p"
+	"github.com/topdefi/go-ethereum/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

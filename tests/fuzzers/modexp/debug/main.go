@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/tests/fuzzers/modexp"
+	"github.com/topdefi/go-ethereum/tests/fuzzers/modexp"
 )
 
 func main() {

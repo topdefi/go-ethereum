@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/consensus"
+	"github.com/topdefi/go-ethereum/consensus/misc"
+	"github.com/topdefi/go-ethereum/core/state"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/params"
+	"github.com/topdefi/go-ethereum/rpc"
+	"github.com/topdefi/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.

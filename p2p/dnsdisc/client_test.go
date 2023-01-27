@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/topdefi/go-ethereum/common/mclock"
+	"github.com/topdefi/go-ethereum/crypto"
+	"github.com/topdefi/go-ethereum/internal/testlog"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/p2p/enode"
+	"github.com/topdefi/go-ethereum/p2p/enr"
 )
 
 const (

@@ -22,14 +22,14 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/common/lru"
+	"github.com/topdefi/go-ethereum/core"
+	"github.com/topdefi/go-ethereum/core/types"
+	"github.com/topdefi/go-ethereum/event"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/params"
+	"github.com/topdefi/go-ethereum/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

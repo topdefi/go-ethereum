@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/topdefi/go-ethereum/common"
+	"github.com/topdefi/go-ethereum/core"
+	"github.com/topdefi/go-ethereum/light"
+	"github.com/topdefi/go-ethereum/log"
+	"github.com/topdefi/go-ethereum/metrics"
+	"github.com/topdefi/go-ethereum/p2p"
+	"github.com/topdefi/go-ethereum/p2p/enode"
+	"github.com/topdefi/go-ethereum/p2p/enr"
+	"github.com/topdefi/go-ethereum/trie"
 )
 
 const (
