@@ -59,7 +59,7 @@ var (
 	MainnetChainConfig = &ChainConfig{
 		ChainID:                       big.NewInt(1776),
 		HomesteadBlock:                big.NewInt(0),
-		DAOForkBlock:                  big.NewInt(0),
+		DAOForkBlock:                  nil,
 		DAOForkSupport:                true,
 		EIP150Block:                   big.NewInt(0),
 		EIP150Hash:                    common.HexToHash("0xb82184f2ad23a626c519921e579caebb6f9ea6e76165318372e639dc3ab797c7"),
